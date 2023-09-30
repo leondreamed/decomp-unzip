@@ -1,0 +1,41 @@
+{
+  "name": "decomp-unzip",
+  "version": "0.0.0",
+  "description": "decompress zip plugin",
+  "license": "MIT",
+  "repository": "kevva/decompress-unzip",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "decompress",
+    "decompressplugin",
+    "extract",
+    "zip"
+  ],
+  "dependencies": {
+    "file-type": "^18.5.0",
+    "get-stream": "^8.0.1",
+    "pify": "^6.1.0",
+    "yauzl": "^2.10.0"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1",
+    "is-jpg": "^3.0.0",
+    "xo": "^0.56.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
