@@ -1,6 +1,6 @@
 {
   "name": "decomp-unzip",
-	"type": "module",
+  "type": "module",
   "version": "0.1.0",
   "description": "decompress zip plugin",
   "license": "MIT",
